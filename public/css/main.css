@@ -18,12 +18,12 @@
   text-align: center;
 }
 
-p {
+p, span {
   color: rgb(224, 231, 245);
   font-size: 13px;
 }
 
-h1 {
+h1, label {
   color: rgb(175, 198, 242);
 }
 
@@ -36,4 +36,9 @@ h1 {
   width: 200px;
   border-radius: 20px;
   height: 200px;
+}
+
+#app main #camera-details div {
+  display: flex;
+  flex-direction: column;
 }
